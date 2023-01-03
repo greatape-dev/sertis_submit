@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "take-home-test"
+version = "0.1.0"
+description = "Sertis data engineering take home test"
+authors = ["J. Doe"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyspark = "3.1.2"
+psycopg2-binary = "^2.9.5"
+numpy = "^1.24.1"
+f = "^0.0.1"
+click = "^8.1.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
